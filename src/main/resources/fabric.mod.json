@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "magic-world",
+  "version": "${version}",
+  "name": "Magic World: Systembound Exile",
+  "description": "A structured fantasy RPG system of divine classes, guild contracts, dungeons, and progression.",
+  "authors": ["Magic World Team"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.magicworld.MagicWorldMod"],
+    "client": ["com.magicworld.MagicWorldClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
